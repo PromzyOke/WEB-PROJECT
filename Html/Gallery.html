@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Page</title>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="../Css/Gallery.css">
+
+    <!-- Navigation file -->
+    <link rel="stylesheet" href="../Css/nav.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navigation beginning -->
+    <nav>
+        <div><img src="../image/restaurant logo.jpg" alt="" width="100px" height="70px"></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="Review.html">Reviews</a></li>
+            <li class="a"><a href="Contact.html">Contact</a></li>
+        </ul>
+        <!--Menu-->
+        <div class="btn">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark" style="display: none;"></i>
+        </div>
+    </nav>
+    <!-- Navigation end -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../image/variety.jpg" class="d-block w-100" alt="..." >
+          </div>
+          <div class="carousel-item">
+            <img src="../image/banga.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../image/local-food.png" class="d-block w-100" alt="..." >
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel End -->
+
+      <main>
+        <section>
+            <p>Our exquisite "five star" catering is a core element of P&P Catering offering and a key reason why our clients choose to host their event with us. Delectable dishes that exude mouthwatering flavours are prepared with premium-handpicked ingredients, under the expertise of our talented chef to create delightful menus, ensuring that the catering will be a delight for you and your guests. <br> <br>
+            Our food is freshly prepared and cooked on site, allowing us to ensure the finest flavours served to your guests. Our menus are tailor made to your specifications, with a wonderful selection of world cuisines. <br> <br>
+            Our catering services requires dedicated expertise and flawless planning. By carrying out site surveys and building long-term relationships with our venue providers, we guarantee planning every function to its finest detail.</p>
+        </section>
+        <section>
+            <div class="grid-container">
+                <div class="grid-item item1">
+                    <img src="../image/okro-soup.jpeg" alt="">
+                </div>
+                <div class="grid-item item2">
+                    <img src="../image/ewedu1.jpg" alt="">
+                </div>
+                <div class="grid-item item3">
+                    <img src="../image/edikikor.jpg" alt="">
+                </div>
+                <div class="grid-item item4">
+                    <img src="../image/afang.jpg" alt="">
+                </div>
+                <div class="grid-item item5">
+                    <img src="../image/banga.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="inner-container">
+                <img src="../image/restaurant logo.jpg" alt="Logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo sapiente adipisci? Pariatur, iusto vero exercitationem veniam porro magnam quidem rem reiciendis repudiandae nemo facilis quos ut eligendi quibusdam laudantium.</p>
+            </div>
+            <div class="quick-links">
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="Review.html">Reviews</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Social media</h3>
+                <p>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </p>
+            </div>
+        </div>
+        <marquee>Copyright &copy; 2023. All rights reserved.</marquee>
+       </footer>
+
+      <!-- Bootstrap js -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+      <!-- Custom JS -->
+      <script src="../Javascript/Script.js"></script>
+</body>
+</html>

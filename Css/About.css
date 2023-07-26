@@ -1,0 +1,98 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+header{
+    background-image:
+    linear-gradient(45deg,
+      rgba(21, 20, 20, 0.75),
+      rgba(28, 53, 95, 0.75)), url('../image/local-food.png');
+    background-repeat: repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position-y: 45%;
+}
+
+section{
+    padding: 5rem 5.5rem;
+    background-color: #f4f4f4;
+}
+
+section h1{
+    margin-bottom: 1rem;
+}
+
+section p{
+    margin-bottom: 1.5rem;
+}
+/*Slider*/
+.slider{
+    display: flex;
+    background-color: #e6e3e3;
+    padding: 3rem 0;
+}
+
+.slider .container{
+    width: 40%;
+}
+
+.slider .container .inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider .container .inner-container .button{
+    color: orangered;
+    font-size: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.slider .container h2{
+    color: orangered;
+    margin-bottom: 1rem;
+}
+
+.slider .container img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20%;
+}
+
+.slider .container .button-container{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:800px) {
+    section{
+        padding: 5rem 2rem;
+    }
+}
+
+/*Larger Screen*/
+@media screen and (max-width:1100px) {
+    /*Slider*/
+    .slider .container{
+        width: 50%;
+    }
+}
+/*Tablet View*/
+@media screen and (max-width:800px) {
+/*Slider*/
+.slider{
+    flex-direction: column;
+    padding: 5rem 2.5rem;
+}
+
+.slider .container{
+    width: 100%;
+}
+}
+@media screen and (max-width:800px) {
+    section{
+        padding: 5rem 2rem;
+    }
+}
